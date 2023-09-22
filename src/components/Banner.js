@@ -53,11 +53,12 @@ export const Banner = () => {
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
             <div className="banner-content">
-              <span className="tagline">Hola soy</span>
-              <h1>{`Maty Nota`} <span className="txt-rotate" dataPeriod="100" data-rotate='[ "Cantante Urbano", "Artista Multifacético", "Innovador de Sonidos Urbanos" ]'><span className="wrap">{text}</span></span></h1>
+              <span className="tagline">:)</span>
+              <h1>{`Maty Nota`} <span className="txt-rotate" dataPeriod="100" data-rotate='[ ":Cantante Urbano", ":Artista Multifacético", ":Innovador de Sonidos Urbanos" ]'><span className="wrap">{text}</span></span></h1>
               <div className="blurred-background">
                 <p style={{ color: '#fff' }}>
-                  ¡Hola a todos! Soy Maty Nota, un apasionado cantante y compositor de música urbana de Buenos Aires, Argentina. Mi música es una fusión de ritmos vibrantes y letras emotivas que cuentan historias auténticas de la vida en la ciudad. Únete a mí en este emocionante viaje musical mientras exploramos las calles de Buenos Aires a través de mis canciones. ¡Bienvenidos a mi mundo musical!
+                  ¡Hola a todos! Soy Maty Nota, un apasionado cantante y compositor de música urbana de Buenos Aires, Argentina. Mi música es una fusión de ritmos vibrantes y letras emotivas que cuentan
+                  historias auténticas de la vida en la ciudad. Únete a mí en este emocionante viaje musical mientras exploramos las calles de Buenos Aires a través de mis canciones. ¡Bienvenidos a mi mundo musical!
                 </p>
               </div>
               <button className="contact-button" onClick={() => console.log('connect')}>Contáctame! <ArrowRightCircle size={25} /></button>

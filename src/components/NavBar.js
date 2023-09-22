@@ -47,9 +47,10 @@ export const NavBar = () => {
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}>
                 <span style={{ background: 'rgba(170, 54, 124, 0.5)', padding: '10px 20px', borderRadius: '10px', backdropFilter: 'blur(10px)' }}>Home</span>
               </Nav.Link>
-              <Nav.Link href="#social-media" className={activeLink === 'social-media' ? 'active navbar-link' : 'navbar-link'}>
-                <span style={{ background: 'rgba(170, 54, 124, 0.5)', padding: '10px 20px', borderRadius: '10px', backdropFilter: 'blur(10px)' }}>Musica</span>
-              </Nav.Link>
+              <Nav.Link href="#project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}>
+  <span style={{ background: 'rgba(170, 54, 124, 0.5)', padding: '10px 20px', borderRadius: '10px', backdropFilter: 'blur(10px)' }}>Música</span>
+</Nav.Link>
+
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
@@ -58,7 +59,7 @@ export const NavBar = () => {
                 <a href="https://open.spotify.com/intl-es/artist/7E0ndjejSGmN5FaktqsqEG"><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
+                <button className="vvd"><span>Contactame!</span></button>
               </HashLink>
             </span>
           </Navbar.Collapse>
