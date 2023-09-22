@@ -2,7 +2,7 @@
 
 This project, known as Matynota Web, is a personal portfolio website built using React. It showcases your skills, projects, and information in a visually appealing way.
 
-![Screenshot](https://user-images.githubusercontent.com/50160672/174933373-1ba6cadf-1c9a-48c3-aa58-984d0bd62d82.png)
+![Screenshot]()
 
 ## About This Project
 
