@@ -1,62 +1,23 @@
-Matynota Web - Personal Portfolio Website in React
-This project, known as Matynota Web, is a personal portfolio website built using React. It showcases your skills, projects, and information in a visually appealing way. Below are the steps to run this project:
+# Matynota Web - Personal Portfolio Website in React
 
-Getting Started
-To get this project up and running on your local machine, follow these steps:
+This project, known as Matynota Web, is a personal portfolio website built using React. It showcases your skills, projects, and information in a visually appealing way.
 
-Clone the repository to your local machine:
+![Screenshot](https://user-images.githubusercontent.com/50160672/174933373-1ba6cadf-1c9a-48c3-aa58-984d0bd62d82.png)
 
-bash
-Copy code
-git clone https://github.com/your-username/matynota-web.git
-Navigate to the project directory:
+## About This Project
 
-bash
-Copy code
-cd matynota-web
-Install the project dependencies using npm or yarn:
+- **Front-end library:** React
+- **CSS framework:** React-bootstrap
+- **CSS animations library:** Animate.css
 
-bash
-Copy code
-npm install
+I created this personal portfolio website and it is hosted on GitHub at [rodrigovera424/MatyNotaWeb](https://github.com/rodrigovera424/MatyNotaWeb).
 
-# or
+## Getting Started
 
-yarn install
-Running the Development Server
-To run the app in the development mode, use the following command:
+To run this project locally, follow these steps:
 
-bash
-Copy code
-npm start
+1. Clone the repository to your local machine:
 
-# or
-
-yarn start
-This will start the development server, and you can access the website in your browser at http://localhost:3000. The page will automatically reload when you make changes to the code, and any lint errors will be displayed in the console.
-
-Running Tests
-You can launch the test runner in interactive watch mode using the following command:
-
-bash
-Copy code
-npm test
-
-# or
-
-yarn test
-This will run the project's tests and provide you with feedback on the test results.
-
-Building for Production
-When you're ready to deploy your portfolio website, you can build the app for production using the following command:
-
-bash
-Copy code
-npm run build
-
-# or
-
-yarn build
-This will create an optimized production build of your app in the build folder. You can then deploy it to your preferred hosting platform.
-
-Matynota Web is built using React, styled with React-bootstrap, and includes CSS animations from Animate.css to make your personal portfolio stand out. Customize it with your own information and projects to showcase your skills and achievements. Enjoy using Matynota Web for your personal portfolio!
+   ```bash
+   git clone https://github.com/rodrigovera424/MatyNotaWeb.git
+   ```
