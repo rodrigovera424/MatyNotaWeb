@@ -37,7 +37,7 @@ export const NavBar = () => {
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/">
-            <img src={logo} alt="Logo" />
+            <img src={logo} alt="Logo" style={{ background: 'rgba(170, 54, 124, 0.5)', padding: '10px 20px', borderRadius: '10px', backdropFilter: 'blur(10px)' }} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -48,15 +48,14 @@ export const NavBar = () => {
                 <span style={{ background: 'rgba(170, 54, 124, 0.5)', padding: '10px 20px', borderRadius: '10px', backdropFilter: 'blur(10px)' }}>Home</span>
               </Nav.Link>
               <Nav.Link href="#project" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}>
-  <span style={{ background: 'rgba(170, 54, 124, 0.5)', padding: '10px 20px', borderRadius: '10px', backdropFilter: 'blur(10px)' }}>Música</span>
-</Nav.Link>
-
+                <span style={{ background: 'rgba(170, 54, 124, 0.5)', padding: '10px 20px', borderRadius: '10px', backdropFilter: 'blur(10px)' }}>Música</span>
+              </Nav.Link>
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.tiktok.com/@maty_nota"><img src={navIcon1} alt="" /></a>
-                <a href="https://www.instagram.com/maty_nota"><img src={navIcon2} alt="" /></a>
-                <a href="https://open.spotify.com/intl-es/artist/7E0ndjejSGmN5FaktqsqEG"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.tiktok.com/@maty_nota" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="" /></a>
+                <a href="https://www.instagram.com/maty_nota" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="" /></a>
+                <a href="https://open.spotify.com/intl-es/artist/7E0ndjejSGmN5FaktqsqEG" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Contactame!</span></button>

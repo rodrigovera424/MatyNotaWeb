@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
@@ -47,6 +47,13 @@ export const Banner = () => {
     }
   }
 
+  const scrollToContact = () => {
+    const contactSection = document.getElementById('connect');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section className="banner" id="home">
       <Container>
@@ -61,7 +68,8 @@ export const Banner = () => {
                   historias auténticas de la vida en la ciudad. Únete a mí en este emocionante viaje musical mientras exploramos las calles de Buenos Aires a través de mis canciones. ¡Bienvenidos a mi mundo musical!
                 </p>
               </div>
-              <button className="contact-button" onClick={() => console.log('connect')}>Contáctame! <ArrowRightCircle size={25} /></button>
+              {/* Utiliza la función scrollToContact al hacer clic en el botón */}
+              <button className="contact-button" onClick={scrollToContact}>Contáctame! <ArrowRightCircle size={25} /></button>
             </div>
           </Col>
           <Col xs={12} md={6} xl={5}>
