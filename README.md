@@ -2,7 +2,8 @@
 
 This project, known as Matynota Web, is a personal portfolio website built using React. It showcases your skills, projects, and information in a visually appealing way.
 
-![Screenshot]([MatyNotaWeb-main\MatyNotaWeb-main\src\assets\img](https://github.com/rodrigovera424/MatyNotaWeb/blob/main/src/assets/img/captura.jpg))
+![Screenshot](https://github.com/rodrigovera424/MatyNotaWeb/blob/main/src/assets/img/captura.jpg)
+
 
 ## About This Project
 
